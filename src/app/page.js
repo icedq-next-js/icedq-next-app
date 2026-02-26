@@ -1,3 +1,8 @@
 export default function Home() {
-  return <h1>Next.js App Router Working 🚀</h1>
+  return (
+    <div>
+      <h1>Next.js is Working 🚀</h1>
+      <p>Your Netlify deployment is successful.</p>
+    </div>
+  );
 }
