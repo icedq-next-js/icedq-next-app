@@ -1,8 +1,11 @@
 [build]
 command = "npm run build"
-publish = ".next/static"
 
 [[redirects]]
 from = "/*"
 to = "/.netlify/functions/___netlify-handler"
 status = 200
+force = true
+
+[functions]
+node_bundler = "esbuild"
